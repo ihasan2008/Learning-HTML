@@ -1,20 +1,20 @@
-i0.1 1.1 5.1 - {1} HTML
-i0.1 1.1 5.1.1 - HTML Basics
-i0.1 1.1 5.1.2 - HTML Document
-i0.1 1.1 5.1.3 - HTML Element
-i0.1 1.1 5.1.4 - HTML Tags
-i0.1 1.1 5.1.5 - HTML Attributes
-i0.1 1.1 5.1.6 - HTML Content
-i0.1 1.1 5.1.7 - HTML Comments
-i0.1 1.1 5.1.8 - Advanced HTML
+* i0.1 1.1 5.1 - {1} HTML
+* i0.1 1.1 5.1.1 - HTML Basics
+* i0.1 1.1 5.1.2 - HTML Document
+* i0.1 1.1 5.1.3 - HTML Element
+* i0.1 1.1 5.1.4 - HTML Tags
+* i0.1 1.1 5.1.5 - HTML Attributes
+* i0.1 1.1 5.1.6 - HTML Content
+* i0.1 1.1 5.1.7 - HTML Comments
+* i0.1 1.1 5.1.8 - Advanced HTML
 
 -------------------------------------------
 
-# > { 1 } HTML - Hyper Text Markup Language
+# { 1 } HTML - Hyper Text Markup Language
 
 1. HTML Basics
 
-    1.1 What is HTML?
+1.1 What is HTML?
     1.2 HyperText কী?
     1.3 Markup Language কী?
     1.4 HTML এর কাজ কী?
