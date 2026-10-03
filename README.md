@@ -12,7 +12,6 @@
 6. [HTML Content](#6--html-content)
 7. [HTML Comments](#7--html-comments)
 8. [Advanced HTML](#8--advanced-html)
-9. [HTML Practice](#9--practice-html)
 
 ---
 
