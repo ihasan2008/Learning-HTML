@@ -17,8 +17,7 @@
 
 # 1. HTML Basics
 
-* [ ] **1.1** What is HTML?
-* [ ] **1.2** HyperText কী?
+* [x] **1.2** HyperText কী?
 * [ ] **1.3** Markup Language কী?
 * [ ] **1.4** HTML-এর কাজ কী?
 * [ ] **1.5** HTML Versions
