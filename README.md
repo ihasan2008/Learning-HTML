@@ -4,8 +4,8 @@
 
 ## 📚 Table of Contents
 
-1. [HTML Basics](#1--html-basics)
-2. [HTML Document](#2--html-document)
+1. [HTML Basics](https://github.com/ihasan2008/Learning-HTML/blob/main/01-HTML-Basics/HTML-Basics.md)
+2. [HTML Document](https://github.com/ihasan2008/Learning-HTML/blob/main/02-HTML-Document/HTML-Document.md)
 3. [HTML Element](#3--html-element)
 4. [HTML Tags](#4--html-tags)
 5. [HTML Attributes](#5--html-attributes)
