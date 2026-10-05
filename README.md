@@ -17,23 +17,24 @@
 
 # 1. HTML Basics
 
+* [x] **1.1** What is HTML?
 * [x] **1.2** HyperText কী?
-* [ ] **1.3** Markup Language কী?
-* [ ] **1.4** HTML-এর কাজ কী?
-* [ ] **1.5** HTML Versions
-* [ ] **1.6** HTML File Extension
-* [ ] **1.7** HTML Editor
-* [ ] **1.8** HTML Browser
-* [ ] **1.9** HTML কীভাবে কাজ করে?
-* [ ] **1.10** Website তৈরিতে HTML-এর ভূমিকা
-* [ ] **1.11** History of HTML
-* [ ] **1.12** Frontend-এর ৩টি প্রধান প্রযুক্তি
-* [ ] **1.13** HTML শেখার আগে যা জানা দরকার
-* [ ] **1.14** Static vs Dynamic Website
-* [ ] **1.15** HTML, CSS & JavaScript Relationship
-* [ ] **1.16** Frontend vs Backend
-* [ ] **1.17** Server & Database
-* [ ] **1.18** Next Learning Steps
+* [x] **1.3** Markup Language কী?
+* [x] **1.4** HTML-এর কাজ কী?
+* [x] **1.5** HTML Versions
+* [x] **1.6** HTML File Extension
+* [x] **1.7** HTML Editor
+* [x] **1.8** HTML Browser
+* [x] **1.9** HTML কীভাবে কাজ করে?
+* [x] **1.10** Website তৈরিতে HTML-এর ভূমিকা
+* [x] **1.11** History of HTML
+* [x] **1.12** Frontend-এর ৩টি প্রধান প্রযুক্তি
+* [x] **1.13** HTML শেখার আগে যা জানা দরকার
+* [x] **1.14** Static vs Dynamic Website
+* [x] **1.15** HTML, CSS & JavaScript Relationship
+* [x] **1.16** Frontend vs Backend
+* [x] **1.17** Server & Database
+* [x] **1.18** Next Learning Steps
 
 ---
 
