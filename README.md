@@ -507,7 +507,7 @@ Attributes provide additional information or configure the behavior of HTML elem
 * [ ] HTML Security Basics
 * [ ] HTML with CSS
 * [ ] HTML with JavaScript
-* [ ] HTML Web Projects
+* [x] HTML Web Projects
 
 ---
 
