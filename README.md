@@ -6,12 +6,12 @@
 
 1. [HTML Basics](https://github.com/ihasan2008/Learning-HTML/blob/main/01-HTML-Basics/HTML-Basics.md)
 2. [HTML Document](https://github.com/ihasan2008/Learning-HTML/blob/main/02-HTML-Document/HTML-Document.md)
-3. [HTML Element](#3--html-element)
-4. [HTML Tags](#4--html-tags)
-5. [HTML Attributes](#5--html-attributes)
-6. [HTML Content](#6--html-content)
-7. [HTML Comments](#7--html-comments)
-8. [Advanced HTML](#8--advanced-html)
+3. [HTML Element](https://github.com/ihasan2008/Learning-HTML/blob/main/03-HTML-Element/HTML-Element.md)
+4. [HTML Tags](https://github.com/ihasan2008/Learning-HTML/blob/main/04-HTML-Tags/HTML-Tags.md)
+5. [HTML Attributes](https://github.com/ihasan2008/Learning-HTML/blob/main/05-HTML-Attributes/HTML-Attributes.md)
+6. [HTML Content](https://github.com/ihasan2008/Learning-HTML/blob/main/06-HTML-Content/HTML-Content.md)
+7. [HTML Comments](https://github.com/ihasan2008/Learning-HTML/blob/main/07-HTML-Comments/HTML-Comments.md)
+8. [Advanced HTML](https://github.com/ihasan2008/Learning-HTML/blob/main/08-Advanced-HTML/Advanced-HTML.md)
 
 ---
 
