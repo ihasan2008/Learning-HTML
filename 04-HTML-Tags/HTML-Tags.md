@@ -109,7 +109,7 @@ HTML-এ বিভিন্ন ধরনের Tag রয়েছে। শে�
 
 ---
 
-#### ২. Metadata Tags
+#### ২. Metadata, Styling & Scripting Tags
 
 Web Page সম্পর্কে অতিরিক্ত তথ্য (Metadata) প্রদান করে।
 
@@ -552,7 +552,7 @@ HTML Document Tags একটি HTML Document-এর ভিত্তি (Foundat
 
 
 
-## 2. Metadata Tags
+## 2. Metadata, Styling & Scripting Tags
 
 Metadata Tags হলো HTML-এর এমন কিছু বিশেষ Tag, যা **Web Page সম্পর্কে অতিরিক্ত তথ্য (Metadata)** সংরক্ষণ করে। এই তথ্যগুলো সাধারণত Browser, Search Engine, Social Media এবং অন্যান্য Web Service ব্যবহার করে। ব্যবহারকারী (User) সাধারণত এই তথ্যগুলো Web Page-এ সরাসরি দেখতে পায় না।
 
