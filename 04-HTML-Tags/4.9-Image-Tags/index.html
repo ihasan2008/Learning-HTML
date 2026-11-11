@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Image Tags</title>
+        <style>
+            body {
+                background-color: #000000;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <picture>
+
+            <source media="(min-width: 800px)" srcset="https://picsum.photos/800/600">
+            <source media="(min-width: 700px)" srcset="https://picsum.photos/800/500">
+            <source media="(min-width: 600px)" srcset="https://picsum.photos/800/400">
+            <source media="(min-width: 500px)" srcset="https://picsum.photos/800/300">
+
+            <!-- img Tag alternative - always fallback -->
+            <img src="https://picsum.photos/800/200" alt="Random Image" width="100%" loading="lazy">
+            
+        </picture>
+
+    </body>
+</html>
