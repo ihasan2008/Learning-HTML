@@ -4,25 +4,32 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML Image Tags</title>
-        <style>
-            body {
-                background-color: #000000;
-            }
-        </style>
     </head>
     <body>
         
-        <picture>
+        <!-- <picture> -->
 
-            <source media="(min-width: 800px)" srcset="https://picsum.photos/800/600">
-            <source media="(min-width: 700px)" srcset="https://picsum.photos/800/500">
-            <source media="(min-width: 600px)" srcset="https://picsum.photos/800/400">
-            <source media="(min-width: 500px)" srcset="https://picsum.photos/800/300">
+            <!-- <source media="(min-width: 800px)" srcset="https://picsum.photos/800/600">
+            <source media="(min-width: 450px)" srcset="https://picsum.photos/800/500"> -->
 
             <!-- img Tag alternative - always fallback -->
-            <img src="https://picsum.photos/800/200" alt="Random Image" width="100%" loading="lazy">
+            <!-- <img src="https://picsum.photos/800/200" alt="Random Image" width="100%"> -->
             
-        </picture>
+        <!-- </picture> -->
+
+        <!-- <figure>
+            <img src="https://picsum.photos/800/700" alt="Random Image" width="100%" loading="lazy">
+            <figcaption>Random Images from Picsum for my page.</figcaption>
+        </figure> -->
+
+        <img src="bangladesh-map.jpg" alt="বাংলাদেশের মানচিত্র" usemap="#bdmap" width="700" height="400">
+        <map name="bdmap">
+          <!-- ঢাকার জন্য ক্লিকযোগ্য আয়তাকার অংশ -->
+          <area shape="rect" coords="120,150,180,200" href="https://maps.google.com/?q=Dhaka" alt="ঢাকা">
+        
+          <!-- চট্টগ্রামের জন্য ক্লিকযোগ্য বৃত্তাকার অংশ -->
+          <area shape="circle" coords="250,300,30" href="https://maps.google.com/?q=Chittagong" alt="চট্টগ্রাম">
+        </map>
 
     </body>
 </html>
