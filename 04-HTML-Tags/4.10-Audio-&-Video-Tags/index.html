@@ -4,8 +4,38 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML Audio & Video Tags</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            video {
+                width: 200px;               
+            }
+        </style>
     </head>
     <body>
-        Content ...
+
+        <audio controls>
+            <source src="audio1.wav" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            <track src="subtitle.vtt" kind="subtitles" srclang="en" label="English">
+            Your browser does not support the video element.
+        </video>
+
+        <br>
+
+        <audio src="audio2.wav" controls autoplay loop>
+            আপনার ব্রাউজার অডিও ট্যাগ সমর্থন করে না।
+        </audio>
+        <br>
+        <video src="video.mp4" controls autoplay loop>
+            আপনার ব্রাউজার ভিডিও ট্যাগ সমর্থন করে না।
+        </video>
+
     </body>
 </html>
