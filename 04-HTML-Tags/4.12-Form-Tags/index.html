@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Form Tags</title>
+    </head>
+    <body>
+
+        <form action="/submit" method="post">
+            <fieldset>
+
+                <legend>Student Registration</legend>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <br>
+
+                <label for="department">Department</label>
+                <select id="department" name="department">
+                    <option>CSE</option>
+                    <option>EEE</option>
+                    <option>Civil</option>
+                </select>
+
+                <br>
+
+                <label for="comment">Comment</label>
+                <textarea id="comment" rows="4" cols="30"></textarea>
+
+                <br>
+
+                <button type="submit">Submit</button>
+
+            </fieldset>
+        </form>
+
+        <!-- <form>
+
+            <h2>Login Form</h2>
+            
+            <input type="email" placeholder="Enter your email">
+            <input type="password" placeholder="Enter your password">
+
+            <button type="submit">Login</button>
+
+        </form> -->
+
+        <form>
+
+            <h2>Registration Form</h2>
+
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <br>
+            <input type="checkbox" id="terms">
+            <label for="terms">I agree to the terms and conditions</label>
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">Other</label>
+            <br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <button type="submit">Register</button>
+
+        </form>
+
+    </body>
+</html>
