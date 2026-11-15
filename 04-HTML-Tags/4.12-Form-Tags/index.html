@@ -72,5 +72,44 @@
 
         </form>
 
+        <label for="cars">একটি গাড়ি পছন্দ করুন:</label>
+        <select id="cars" name="cars">
+            <optgroup label="জাপানি গাড়ি">
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+            </optgroup>
+            <optgroup label="জার্মান গাড়ি">
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select>
+
+        <br>
+
+        <label for="browser">আপনার পছন্দের ব্রাউজার বেছে নিন:</label>
+        <input list="browsers" id="browser" name="browser">
+
+        <datalist id="browsers">
+            <option value="Google Chrome">
+            <option value="Mozilla Firefox">
+            <option value="Microsoft Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+
+        <br>
+
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="number" id="a" value="10"> +
+            <input type="number" id="b" value="20"> =
+            <output name="result" for="a b">30</output>
+        </form>
+
+        <label for="disk">ডিস্ক ব্যবহার:</label>
+        <meter id="disk" value="70" min="0" max="100">৭০%</meter>
+
+        <label for="file">ফাইল ডাউনলোড হচ্ছে:</label>
+        <progress id="file" value="70" max="100"> 70% </progress>
+
     </body>
 </html>
