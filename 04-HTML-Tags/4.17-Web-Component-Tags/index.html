@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Web Component Tags</title>
+    </head>
+    <body>
+
+        <!-- কম্পোনেন্টের টেমপ্লেট -->
+        <template id="user-card">
+            <div class="card">
+                <h3><slot name="username">অজানা ব্যবহারকারী</slot></h3>
+                <p><slot>কোনো তথ্য দেওয়া নেই।</slot></p>
+            </div>
+        </template>
+
+        <!-- কম্পোনেন্ট ব্যবহার করার সময় -->
+        <user-card>
+            <span slot="username">HaSaN</span>
+            <span>আমি ওয়েব ডেভেলপমেন্ট শিখছি।</span>
+        </user-card>
+
+
+        <hr>
+
+        
+        <!-- ১. HTML-এ টেমপ্লেট তৈরি (এটি পেজে দেখা যাবে না) -->
+        <template id="card-template">
+            <div class="card">
+                <h2 class="title"></h2>
+                <p class="desc"></p>
+            </div>
+        </template>
+
+        <!-- ২. যেখানে কার্ডগুলো দেখানো হবে -->
+        <div id="container"></div>
+
+        <script>
+
+            // টেমপ্লেটটি ধরা এবং কপি (clone) করা
+            const template = document.getElementById("card-template");
+            const clone = template.content.cloneNode(true);
+
+            // কপি করা টেমপ্লেটে ডেটা বসানো
+            clone.querySelector(".title").textContent = "নতুন পোস্ট";
+            clone.querySelector(".desc").textContent = "এটি টেমপ্লেট ট্যাগ ব্যবহার করে তৈরি।";
+
+            // পেজে যুক্ত করা
+            document.getElementById("container").appendChild(clone);
+
+        </script>
+
+    </body>
+</html>

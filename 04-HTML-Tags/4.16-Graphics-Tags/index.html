@@ -7,5 +7,24 @@
     </head>
     <body>
         
+        <!-- ক্যানভাস তৈরি -->
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+            আপনার ব্রাউজার canvas ট্যাগ সমর্থন করে না।
+        </canvas>
+
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="35" fill="red" />
+        </svg>
+
+        <!-- JavaScript দিয়ে আঁকা -->
+        <script>
+
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.fillStyle = "green";
+            ctx.fillRect(20, 20, 150, 60);
+
+        </script>
+
     </body>
 </html>
